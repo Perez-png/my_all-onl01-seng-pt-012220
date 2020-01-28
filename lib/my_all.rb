@@ -8,6 +8,9 @@ yield(collection[i])
       end
   end
   
+  if
+
+  
 my_all?([1,2,3]) {|i| i < 2}
   block_return_values = [true,
   false, false]
@@ -16,7 +19,21 @@ my_all?([1,2,3]) {|i| i < 2}
   require 'pry'
 
 def my_all?(collection)
+  i = 0 
+  block_return_values = []
+  while i < collection.length
+    block_return_values <<
+yield(collection{[i]})
+  i = i + 1  
+end
 
+  if
+block_return_values.include?
+(false)
+  false
+else
+  true
+end
 end
 
 def my_all?([1,2,3])
