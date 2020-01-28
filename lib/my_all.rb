@@ -36,6 +36,7 @@ else
  end
 end
 
+
 def my_all?([1,2,3])
   i = 0 
   while i < 3
