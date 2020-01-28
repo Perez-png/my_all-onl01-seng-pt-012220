@@ -9,6 +9,9 @@ yield(collection[i])
   end
   
 my_all?([1,2,3]) {|i| i < 2}
+  block_return_values = [true,
+  false, false]
+  
   
   require 'pry'
 
